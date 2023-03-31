@@ -1,0 +1,336 @@
+// Global variables
+$button-color: rgba(71, 120, 133, 0.705);
+$text-color: rgba(255, 255, 255, 0.623);
+$header-color: linear-gradient(to top, #333333, #cccccc);
+$border-black: 2px solid black;
+$border-white: 2px solid white;
+$text-hover-color: rgba(255, 255, 255, 0.747);
+
+
+
+
+
+
+// CSS for max width ~ 950px ~
+@media(max-width:950px) {
+    // CSS for the navbar 
+    .navbar {
+        width: 90%;
+
+        a {
+            text-decoration: none;
+
+            h1 {
+                color: $text-color;
+                letter-spacing: 5px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+
+        .nav-links {
+            display: flex;
+            width: 40%;
+            justify-content: center;
+            justify-content: space-around;
+
+            a {
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 23px;
+                color: $text-color;
+            }
+
+            a:hover {
+                color: $text-hover-color;
+            }
+        }
+    }
+
+    // CSS for the jumbotron that holds the image and the stuff inside
+    .jumbotron {
+        background-image: url('/static/images/image_example_one.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%; /* full width of the viewport */
+        height: 700px;
+        border: none;
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .inside-jumbotron-info {
+            width: 90%;
+
+            h1 {
+                font-size: 90px;
+            }
+
+            p {
+                font-size: 25px;
+            }
+
+            
+        }
+    }
+}
+
+
+
+// CSS for max width ~ 939px ~
+@media(max-width:939px) {
+    // CSS for the jumbotron that holds the image and the stuff inside
+    .jumbotron {
+
+        .inside-jumbotron-info {
+
+
+            a {
+                button {
+                    width: 20%;
+                }
+
+            }
+
+            
+        }
+    }
+}
+
+
+
+// CSS for max width ~ 752px ~
+@media(max-width:752px) {
+    // CSS for the navbar 
+    .navbar {
+
+        .nav-links {
+            display: none;
+            
+        }
+
+
+        button {
+            display: block;
+        }
+
+    }
+}
+
+
+
+// CSS for max width ~ 735px ~
+@media(max-width:735px) {
+    // CSS for the navbar 
+    .navbar {
+
+
+
+        button {
+            border: 2px solid $text-color;
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0);
+            width: 20%;
+            justify-content: center;
+            justify-content: space-around;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: 500;
+            color: $text-color;
+        }
+
+    }
+
+}
+
+
+
+// CSS for max width ~ 709px ~
+@media(max-width:709px) {
+    // CSS for the jumbotron that holds the image and the stuff inside
+    .jumbotron {
+
+        .inside-jumbotron-info {
+
+
+            a {
+                button {
+                    width: 25%;
+                }
+
+            }
+
+            
+        }
+    }
+}
+
+
+
+// CSS for max width ~ 688px ~
+@media(max-width:688px) {
+    // CSS for the jumbotron that holds the image and the stuff inside
+    .jumbotron {
+
+        .inside-jumbotron-info {
+            width: 80%;
+
+            h1 {
+                font-size: 70px;
+            }
+
+            p {
+                font-size: 25px;
+                width: 100%;
+            }
+
+            a {
+                button {
+                    width: 25%;
+
+                }
+
+            }
+
+            
+        }
+    }
+
+
+}
+
+
+
+// CSS for max width ~ 666px ~
+@media(max-width:666px) {
+    // CSS for the jumbotron that holds the image and the stuff inside
+    .jumbotron {
+
+        .inside-jumbotron-info {
+
+            a {
+                button {
+                    width: 25%;
+                }
+
+            }
+
+            
+        }
+    }
+
+
+}
+
+
+// CSS for max width ~ 641px ~
+@media(max-width:641px) {
+    // CSS for the jumbotron that holds the image and the stuff inside
+    .jumbotron {
+
+        .inside-jumbotron-info {
+
+            a {
+                button {
+                    width: 30%;
+                }
+
+            }
+
+            
+        }
+    }
+
+
+}
+
+
+// CSS for max width ~ 627px ~
+@media(max-width:627px) {
+    // CSS for the jumbotron that holds the image and the stuff inside
+    .jumbotron {
+
+        .inside-jumbotron-info {
+            width: 98%;
+            padding: 0;
+            margin-top: 10%;
+
+            h1 {
+                font-size: 70px;
+                width: 98%;
+            }
+
+            p {
+                font-size: 25px;
+                width: 100%;
+            }
+
+
+            
+        }
+    }
+
+
+}
+
+
+
+
+// CSS for max width ~ 524px ~
+@media(max-width:524px) {
+    // CSS for the jumbotron that holds the image and the stuff inside
+    .jumbotron {
+
+        .inside-jumbotron-info {
+            width: 98%;
+
+            h1 {
+                font-size: 70px;
+                letter-spacing: 0;
+            }
+
+            
+        }
+    }
+
+
+}
+
+
+
+// CSS for max width ~ 476px ~
+@media(max-width:476px) {
+    // CSS for the jumbotron that holds the image and the stuff inside
+    .jumbotron {
+
+        .inside-jumbotron-info {
+            width: 98%;
+            margin-top: 10%;
+            padding: 0;
+
+            h1 {
+                font-size: 60px;
+                letter-spacing: 0;
+                width: 100%;
+
+            }
+
+            p {
+                font-size: 21px;
+            }
+
+            a {
+                button {
+                    width: 30%;
+                }
+            }
+
+            
+        }
+    }
+
+
+}

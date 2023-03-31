@@ -1,0 +1,32 @@
+{% block navbar %}
+<div class="navbar">
+
+    <a href="#"><h1>Explore</h1></a>
+
+    <div class="nav-links">
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Options</a>
+    </div>
+
+
+    <button onclick="navbar_dropdown()">
+        Menu
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+</div>
+
+
+
+<div id="nav_links">
+    <a href="#">About</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Options</a>
+</div>
+
+
+<script src="/static/js/navbar_dropdown.js"></script>
+
+
+{% endblock navbar %}
