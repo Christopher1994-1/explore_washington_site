@@ -73,7 +73,7 @@ body {
 }
 
 
-
+// CSS for the nav links drop down menu click
 #nav_links {
     border: none;
     width: 90%;
@@ -97,9 +97,11 @@ body {
     }
 }
 
+
+
 // CSS for the jumbotron that holds the image and the stuff inside
 .jumbotron {
-    background-image: url('/static/images/image_example_one.jpg');
+    background-image: url('/static/images/image_example_two.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%; /* full width of the viewport */
@@ -159,5 +161,35 @@ body {
         }
 
         
+    }
+}
+
+
+// CSS for the div container under the jumbotron
+.under_jumbo {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #000000, #131313);
+
+    .inside-stuff {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        padding: 20px;
+        justify-content: space-around;
+
+        // img {
+        // }
+
+        p {
+            align-self: center;
+            width: 50%;
+            text-align: center;
+            color: $text-color;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 25px;
+        }
+
     }
 }

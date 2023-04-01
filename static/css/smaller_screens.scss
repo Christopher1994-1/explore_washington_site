@@ -9,6 +9,59 @@ $text-hover-color: rgba(255, 255, 255, 0.747);
 
 
 
+// CSS for max width ~ 1115px ~
+@media(max-width:1115px) {
+    // CSS for the div container under the jumbotron
+    .under_jumbo {
+
+        .inside-stuff {
+            width: 90%;
+            padding: 15px;
+
+            img {
+                width: 370px;
+                height: 582px;
+            }
+
+            p {
+                width: 50%;
+                font-size: 17px;
+                // font-weight: 500;
+                // line-height: 25px;
+            }
+
+        }
+    }
+}
+
+
+
+
+// CSS for max width ~ 982px ~
+@media(max-width:982px) {
+    // CSS for the div container under the jumbotron
+    .under_jumbo {
+
+        .inside-stuff {
+            width: 90%;
+            padding: 15px;
+
+            img {
+                width: 340px;
+                height: 552px;
+            }
+
+            p {
+                width: 60%;
+                font-size: 15px;
+                // font-weight: 500;
+                // line-height: 25px;
+            }
+
+        }
+    }
+}
+
 
 
 // CSS for max width ~ 950px ~
@@ -81,6 +134,9 @@ $text-hover-color: rgba(255, 255, 255, 0.747);
 @media(max-width:939px) {
     // CSS for the jumbotron that holds the image and the stuff inside
     .jumbotron {
+        background-image: url('/static/images/image_example_two.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
 
         .inside-jumbotron-info {
 
@@ -96,6 +152,34 @@ $text-hover-color: rgba(255, 255, 255, 0.747);
         }
     }
 }
+
+
+
+// CSS for max width ~ 868px ~
+@media(max-width:868px) {
+    // CSS for the div container under the jumbotron
+    .under_jumbo {
+
+        .inside-stuff {
+            width: 90%;
+            padding: 15px;
+
+            img {
+                width: 310px;
+                height: 522px;
+            }
+
+            p {
+                width: 60%;
+                font-size: 15px;
+                // font-weight: 500;
+                // line-height: 25px;
+            }
+
+        }
+    }
+}
+
 
 
 
@@ -222,8 +306,35 @@ $text-hover-color: rgba(255, 255, 255, 0.747);
         }
     }
 
+    // CSS for the div container under the jumbotron
+    .under_jumbo {
+
+        .inside-stuff {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            padding: 15px;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 310px;
+                height: 522px;
+            }
+
+            p {
+                width: 100%;
+                font-size: 20px;
+                // font-weight: 500;
+                // line-height: 25px;
+            }
+
+        }
+    }
+    
 
 }
+
 
 
 // CSS for max width ~ 641px ~
