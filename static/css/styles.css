@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(209, 209, 209);
 }
 
 .navbar {
@@ -51,6 +52,82 @@ body {
   font-size: 20px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.623);
+  display: none;
+}
+
+.navbar2 {
+  position: absolute;
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+}
+.navbar2 a {
+  text-decoration: none;
+}
+.navbar2 a h1 {
+  color: black;
+  letter-spacing: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.navbar2 .nav-links {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  justify-content: space-around;
+}
+.navbar2 .nav-links a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 23px;
+  color: black;
+}
+.navbar2 .nav-links a:hover {
+  color: black;
+}
+.navbar2 #nav_links2 {
+  border: none;
+  width: 100%;
+  position: absolute;
+  display: grid;
+  border-top: 2px solid black;
+  grid-template-columns: 1fr;
+  row-gap: 30px;
+  top: 167;
+  z-index: 100;
+  background-color: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  display: none;
+}
+.navbar2 #nav_links2 a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+.navbar2 #menu-btn {
+  display: none;
+}
+.navbar2 button {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 15%;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  display: none;
+}
+.navbar2 #menu0x {
   display: none;
 }
 
@@ -150,4 +227,38 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 25px;
+}
+
+.shoreline-container {
+  padding: 20px;
+}
+.shoreline-container .stuff-inside-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(233, 233, 233);
+}
+.shoreline-container .stuff-inside-container img {
+  width: 600px;
+  height: 500px;
+  width: 60%;
+}
+.shoreline-container .stuff-inside-container .header-and-paraprah-container {
+  width: 40%;
+  align-self: center;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shoreline-container .stuff-inside-container .header-and-paraprah-container h4 {
+  margin-bottom: 0;
+  font-size: 35px;
+  font-weight: bolder;
+}
+.shoreline-container .stuff-inside-container .header-and-paraprah-container p {
+  margin-top: 0;
+  font-weight: bolder;
+  width: 60%;
 }/*# sourceMappingURL=styles.css.map */

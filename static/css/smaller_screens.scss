@@ -32,6 +32,17 @@ $text-hover-color: rgba(255, 255, 255, 0.747);
 
         }
     }
+
+    // CSS for the navbar 
+    .navbar2 {
+
+        .nav-links {
+            display: flex;
+            width: 40%;
+            justify-content: center;
+            justify-content: space-around;
+        }
+    }
 }
 
 
@@ -178,6 +189,47 @@ $text-hover-color: rgba(255, 255, 255, 0.747);
 
         }
     }
+
+
+    // CSS for the shoreline index thing
+    .shoreline-container {
+        padding: 20px;
+
+        .stuff-inside-container {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+
+            img {
+                width: 100%;
+                height: 500px;
+            }
+
+            .header-and-paraprah-container {
+                width: 100%;
+                align-self: center;
+                text-align: center;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                h4 {
+                    margin-bottom: 0;
+                    font-size: 55px;
+                    font-weight: bolder;
+                }
+
+                p {
+                    font-size: 20px;
+                    margin-top: 0;
+                    font-weight: bolder;
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 
 
@@ -198,6 +250,21 @@ $text-hover-color: rgba(255, 255, 255, 0.747);
             display: block;
         }
 
+    }
+
+
+    // CSS for the navbar 
+    .navbar2 {
+
+        .nav-links {
+            display: none;
+
+        }
+
+
+        #menu-btn {
+            display: block;
+        }
     }
 }
 
@@ -253,7 +320,6 @@ $text-hover-color: rgba(255, 255, 255, 0.747);
 }
 
 
-
 // CSS for max width ~ 688px ~
 @media(max-width:688px) {
     // CSS for the jumbotron that holds the image and the stuff inside
@@ -286,6 +352,24 @@ $text-hover-color: rgba(255, 255, 255, 0.747);
 
 }
 
+
+
+// CSS for max width ~ 671px ~
+@media (max-width:671px) {
+    // CSS for the shoreline index thing
+    .shoreline-container {
+
+        .stuff-inside-container {
+
+            img {
+                width: 100%;
+                height: 40%;
+            }
+        }
+    }
+
+    
+}
 
 
 // CSS for max width ~ 666px ~

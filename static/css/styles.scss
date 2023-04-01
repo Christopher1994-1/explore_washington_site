@@ -10,6 +10,7 @@ $text-hover-color: rgba(255, 255, 255, 0.747);
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(209, 209, 209);
   }
 
 
@@ -68,6 +69,99 @@ body {
         font-size: 20px;
         font-weight: 500;
         color: $text-color;
+        display: none;
+    }
+}
+
+
+// CSS for the navbar 
+.navbar2 {
+    position: absolute;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+
+    a {
+        text-decoration: none;
+
+        h1 {
+            color: black;
+            letter-spacing: 5px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
+
+    .nav-links {
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        justify-content: space-around;
+
+        a {
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 23px;
+            color: black;
+        }
+
+        a:hover {
+            color: black;
+        }
+    }
+
+
+    // CSS for the nav links drop down menu click
+    #nav_links2 {
+        border: none;
+        width: 100%;
+        position: absolute;
+        display: grid;
+        border-top: 2px solid black;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        top: 167;
+        z-index: 100;
+        background-color: white;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        display: none;
+
+        a {
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            color: black;
+        }
+    }
+
+
+    #menu-btn {
+        display: none;
+    }
+
+
+    button {
+        border: $border-black;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0);
+        width: 15%;
+        justify-content: center;
+        justify-content: space-around;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 500;
+        color: black;
+        display: none;
+    }
+
+
+    #menu0x {
         display: none;
     }
 }
@@ -191,5 +285,47 @@ body {
             line-height: 25px;
         }
 
+    }
+}
+
+
+
+// CSS for the shoreline index thing
+.shoreline-container {
+    padding: 20px;
+
+    .stuff-inside-container {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(233, 233, 233);
+
+        img {
+            width: 600px;
+            height: 500px;
+            width: 60%;
+        }
+
+        .header-and-paraprah-container {
+            width: 40%;
+            align-self: center;
+            text-align: center;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h4 {
+                margin-bottom: 0;
+                font-size: 35px;
+                font-weight: bolder;
+            }
+
+            p {
+                margin-top: 0;
+                font-weight: bolder;
+                width: 60%;
+            }
+        }
     }
 }

@@ -28,3 +28,34 @@ function navbar_dropdown() {
       }, 500);
     }
 }
+
+
+
+
+
+function navbar_dropdown2() {
+  let navbar_dropdown = document.getElementById('nav_links2')
+  let button = document.getElementById('menu-btn')
+  let button_x = document.getElementById('menu0x')
+
+  if (navbar_dropdown.style.display = "none") {
+    navbar_dropdown.style.display = "block"
+    navbar_dropdown.style.display = "flex"
+    navbar_dropdown.style.flexDirection = "column"
+    button.style.display = 'none'
+    button_x.style.display = 'block'
+  }
+};
+
+
+
+function navbar_x() {
+  let button_x = document.getElementById('menu0x')
+  let button = document.getElementById('menu-btn')
+  let navbar_dropdown = document.getElementById('nav_links2')
+
+  button.style.display = 'block'
+  button_x.style.display = 'none'
+  navbar_dropdown.style.display = 'none'
+
+}
