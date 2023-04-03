@@ -17,6 +17,130 @@
     justify-content: center;
     justify-content: space-around;
   }
+  .navbar3 .nav-links {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  .subscribe {
+    position: relative;
+    text-align: center;
+  }
+  .subscribe .sub-form {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.623);
+    padding: 10px;
+  }
+  .subscribe .sub-form i {
+    font-size: 80px;
+    margin-bottom: 0;
+  }
+  .subscribe .sub-form h5 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .subscribe .sub-form .input-button {
+    margin-top: 10;
+  }
+  .subscribe .sub-form .input-button input {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.623);
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+  }
+  .subscribe .sub-form .input-button input::-moz-placeholder {
+    color: black;
+  }
+  .subscribe .sub-form .input-button input::placeholder {
+    color: black;
+  }
+  .subscribe .sub-form .input-button a button {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(71, 120, 133, 0.705);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .subscribe .sub-form .input-button a button:hover {
+    background-color: rgba(97, 155, 172, 0.705);
+  }
+}
+@media (max-width: 1024px) {
+  .main-footer-container .footer-things {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .main-footer-container .footer-things .box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    width: 25%;
+  }
+  .main-footer-container .footer-things .box i {
+    color: rgba(71, 120, 133, 0.705);
+    font-size: 25px;
+    margin-bottom: 15;
+  }
+  .main-footer-container .footer-things .box h5 {
+    color: rgba(71, 120, 133, 0.705);
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20;
+  }
+  .main-footer-container .footer-things .box .line {
+    border: 2px solid rgba(71, 120, 133, 0.705);
+    margin-top: 0;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20;
+  }
+  .main-footer-container .footer-things .box h4 {
+    color: rgba(49, 84, 94, 0.705);
+    font-size: 15px;
+  }
+  .main-footer-container .footer-things .box h4 a {
+    text-decoration: none;
+    color: rgba(49, 84, 94, 0.705);
+  }
+  .main-footer-container .footer-things .box h4 a:hover {
+    color: rgba(34, 57, 63, 0.705);
+  }
+  .main-footer-container .social-links {
+    width: 20%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  .main-footer-container .social-links a {
+    color: rgba(71, 120, 133, 0.705);
+  }
+  .main-footer-container .social-links a i {
+    font-size: 50px;
+    background-color: rgb(32, 32, 32);
+    padding: 10px;
+    border-radius: 100px;
+  }
+  .main-footer-container p {
+    margin-top: 10px;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 20px;
+    color: rgba(71, 120, 133, 0.705);
+    font-weight: bolder;
+    color: rgba(49, 84, 94, 0.705);
+  }
 }
 @media (max-width: 982px) {
   .under_jumbo .inside-stuff {
@@ -30,6 +154,55 @@
   .under_jumbo .inside-stuff p {
     width: 60%;
     font-size: 15px;
+  }
+  .subscribe {
+    position: relative;
+    text-align: center;
+  }
+  .subscribe img {
+    width: 100%;
+  }
+  .subscribe .sub-form {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.623);
+    padding: 10px;
+  }
+  .subscribe .sub-form i {
+    font-size: 70px;
+    margin-bottom: 0;
+  }
+  .subscribe .sub-form h5 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .subscribe .sub-form .input-button {
+    margin-top: 10;
+  }
+  .subscribe .sub-form .input-button input {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.623);
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+  }
+  .subscribe .sub-form .input-button input::-moz-placeholder {
+    color: black;
+  }
+  .subscribe .sub-form .input-button input::placeholder {
+    color: black;
+  }
+  .subscribe .sub-form .input-button a button {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(71, 120, 133, 0.705);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .subscribe .sub-form .input-button a button:hover {
+    background-color: rgba(97, 155, 172, 0.705);
   }
 }
 @media (max-width: 950px) {
@@ -91,6 +264,57 @@
     width: 20%;
   }
 }
+@media (max-width: 893px) {
+  .subscribe {
+    position: relative;
+    text-align: center;
+  }
+  .subscribe img {
+    width: 100%;
+  }
+  .subscribe .sub-form {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.623);
+    padding: 10px;
+  }
+  .subscribe .sub-form i {
+    font-size: 70px;
+    margin-bottom: 0;
+  }
+  .subscribe .sub-form h5 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .subscribe .sub-form .input-button {
+    margin-top: 10;
+  }
+  .subscribe .sub-form .input-button input {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.623);
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+  }
+  .subscribe .sub-form .input-button input::-moz-placeholder {
+    color: black;
+  }
+  .subscribe .sub-form .input-button input::placeholder {
+    color: black;
+  }
+  .subscribe .sub-form .input-button a button {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(71, 120, 133, 0.705);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .subscribe .sub-form .input-button a button:hover {
+    background-color: rgba(97, 155, 172, 0.705);
+  }
+}
 @media (max-width: 868px) {
   .under_jumbo .inside-stuff {
     width: 90%;
@@ -137,6 +361,235 @@
     font-weight: bolder;
     width: 100%;
   }
+  .grid-container .child-one {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-container .child-one img {
+    width: 100%;
+  }
+  .grid-container .child-one .child-holder {
+    padding: 20px;
+  }
+  .grid-container .child-two {
+    display: none;
+  }
+  .grid-container .child-two-smaller {
+    display: block;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .grid-container .child-two-smaller img {
+    width: 100%;
+  }
+  .grid-container .child-two-smaller .child-holder {
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.623);
+    padding: 20px;
+  }
+  .grid-container .child-two-smaller .child-holder h4 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .grid-container .child-two-smaller .child-holder p {
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 852px) {
+  .subscribe {
+    position: relative;
+    text-align: center;
+  }
+  .subscribe img {
+    width: 100%;
+  }
+  .subscribe .sub-form {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.623);
+    padding: 10px;
+  }
+  .subscribe .sub-form i {
+    font-size: 70px;
+    margin-bottom: 0;
+  }
+  .subscribe .sub-form h5 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .subscribe .sub-form .input-button {
+    margin-top: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribe .sub-form .input-button input {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.623);
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .subscribe .sub-form .input-button input::-moz-placeholder {
+    color: black;
+  }
+  .subscribe .sub-form .input-button input::placeholder {
+    color: black;
+  }
+  .subscribe .sub-form .input-button a button {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(71, 120, 133, 0.705);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .subscribe .sub-form .input-button a button:hover {
+    background-color: rgba(97, 155, 172, 0.705);
+  }
+  .about-us-section {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  .about-us-section p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+}
+@media (max-width: 802px) {
+  .main-footer-container .footer-things {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-footer-container .footer-things .box {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin-bottom: 20px;
+    align-self: center;
+    border-bottom: 4px solid rgba(71, 120, 133, 0.705);
+  }
+  .main-footer-container .footer-things .box i {
+    color: rgba(71, 120, 133, 0.705);
+    font-size: 25px;
+    margin-bottom: 15;
+  }
+  .main-footer-container .footer-things .box h5 {
+    color: rgba(71, 120, 133, 0.705);
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20;
+  }
+  .main-footer-container .footer-things .box .line {
+    border: 2px solid rgba(71, 120, 133, 0.705);
+    margin-top: 0;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20;
+  }
+  .main-footer-container .footer-things .box h4 {
+    color: rgba(49, 84, 94, 0.705);
+    font-size: 15px;
+  }
+  .main-footer-container .footer-things .box h4 a {
+    text-decoration: none;
+    color: rgba(49, 84, 94, 0.705);
+  }
+  .main-footer-container .footer-things .box h4 a:hover {
+    color: rgba(34, 57, 63, 0.705);
+  }
+  .main-footer-container .social-links {
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  .main-footer-container .social-links a {
+    color: rgba(71, 120, 133, 0.705);
+  }
+  .main-footer-container .social-links a i {
+    font-size: 50px;
+    background-color: rgb(32, 32, 32);
+    padding: 10px;
+    border-radius: 100px;
+  }
+  .main-footer-container p {
+    text-align: center;
+    width: 40%;
+  }
+}
+@media (max-width: 782px) {
+  .subscribe {
+    position: relative;
+    text-align: center;
+  }
+  .subscribe img {
+    width: 100%;
+  }
+  .subscribe .sub-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.623);
+    padding: 10px;
+    width: 90%;
+  }
+  .subscribe .sub-form i {
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+  .subscribe .sub-form h5 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .subscribe .sub-form .input-button {
+    margin-top: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribe .sub-form .input-button input {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.623);
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .subscribe .sub-form .input-button input::-moz-placeholder {
+    color: black;
+  }
+  .subscribe .sub-form .input-button input::placeholder {
+    color: black;
+  }
+  .subscribe .sub-form .input-button a button {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(71, 120, 133, 0.705);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .subscribe .sub-form .input-button a button:hover {
+    background-color: rgba(97, 155, 172, 0.705);
+  }
 }
 @media (max-width: 752px) {
   .navbar .nav-links {
@@ -149,6 +602,12 @@
     display: none;
   }
   .navbar2 #menu-btn {
+    display: block;
+  }
+  .navbar3 .nav-links {
+    display: none;
+  }
+  .navbar3 #menu-btn {
     display: block;
   }
 }
@@ -221,6 +680,35 @@
     width: 30%;
   }
 }
+@media (max-width: 638px) {
+  .subscribe {
+    position: relative;
+    text-align: center;
+  }
+  .subscribe img {
+    width: 100%;
+    height: 400px;
+  }
+  .subscribe .sub-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.623);
+    padding: 10px;
+    width: 80%;
+  }
+  .subscribe .sub-form i {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .subscribe .sub-form h5 {
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
 @media (max-width: 627px) {
   .jumbotron .inside-jumbotron-info {
     width: 98%;
@@ -261,5 +749,62 @@
   }
   .jumbotron .inside-jumbotron-info a button {
     width: 30%;
+  }
+  .subscribe {
+    position: relative;
+    text-align: center;
+  }
+  .subscribe img {
+    width: 100%;
+    height: 400px;
+  }
+  .subscribe .sub-form {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.623);
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+  }
+  .subscribe .sub-form i {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .subscribe .sub-form h5 {
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .subscribe .sub-form .input-button {
+    margin-top: 10;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe .sub-form .input-button input {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.623);
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .subscribe .sub-form .input-button input::-moz-placeholder {
+    color: black;
+  }
+  .subscribe .sub-form .input-button input::placeholder {
+    color: black;
+  }
+  .subscribe .sub-form .input-button a button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(71, 120, 133, 0.705);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .subscribe .sub-form .input-button a button:hover {
+    background-color: rgba(97, 155, 172, 0.705);
   }
 }/*# sourceMappingURL=smaller_screens.css.map */

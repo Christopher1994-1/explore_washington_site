@@ -12,7 +12,7 @@
     <div class="inside-jumbotron-info" id="jumbo">
         <h1>Washington</h1>
         <p>Experience the darker side of Washington state and the greater Pacific Northwest.</p>
-        <a href="#"><button>Learn More</button></a>
+        <a href="{{ url_for('about') }}"><button>Learn More</button></a>
     </div>
 </div>
 
@@ -26,6 +26,18 @@
 
 <br><br><br><br>
 
+
+{% include 'index_things/grid_look.html' %}
+
+
+<br><br><br><br>
+
+
+{% include 'index_things/subscribe.html' %}
+
+
 <script src="/static/js/navbar_dropdown.js"></script>
+
+
 
 {% endblock content %}
